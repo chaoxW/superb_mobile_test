@@ -43,6 +43,7 @@ public class BaseClass {
     AppData appData = new AppData();
     String appPackage = appData.AppPackage;
     String appActivity = appData.AppActivity;
+    String baseUrl = appData.Url;
 
     @BeforeTest
     public void setup() {
@@ -56,7 +57,7 @@ public class BaseClass {
 
         URL url = null;
         try {
-            url = new URL("http://127.0.0.1:4723/wd/hub");
+            url = new URL(baseUrl);
         } catch (MalformedURLException e) {
             e.printStackTrace();
         }
