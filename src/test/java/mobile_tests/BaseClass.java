@@ -3,7 +3,6 @@ package mobile_tests;
 import Pages.HomePage;
 import Pages.StartPage;
 import Pages.SubMenuPage;
-import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -123,8 +122,8 @@ public class BaseClass extends Utils {
             String message = MessageDialog.getText();
             System.out.println("\n the message is " + message);
         } catch (Exception exp) {
-            System.out.println("add to cart ERROR " + exp.getCause());
-            System.out.println("add to cart ERROR " + exp.getMessage());
+            System.out.println("get confirmation message ERROR " + exp.getCause());
+            System.out.println("get confirmation message ERROR " + exp.getMessage());
         }
     }
 }
