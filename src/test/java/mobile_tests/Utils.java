@@ -44,7 +44,7 @@ public class Utils {
         System.out.println("Application started.........");
     }
 
-    public void QuitDriver(){
+    public void QuitDriver() {
         driver.quit();
     }
 

@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 public class Tests extends BaseClass {
 
     @Test
-    public void addFoodToCart(){
+    public void addFoodToCart() {
         // open app and click continue button
         clickStartPageContinueButton();
         // if there is message to alert the old version of app click confirm button to continue
