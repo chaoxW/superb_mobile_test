@@ -6,7 +6,7 @@
     │       ├── config   
     │       │     └── the mobile and APP configuration data
     │       ├── mobile_tests 
-    │       │     └── the mobile tests, which BaseClass has reusable method and the hooks
+    │       │     └── the mobile tests, which BaseClass and Utils have reusable method and the hooks
     │       └── Pages
     │             └── the locators with POM 
     └── pom.xml - Configuration and dependencies
